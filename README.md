@@ -19,8 +19,8 @@ Note: I excluded all data that I termed 'Academic' since it had circular causali
 
 ### The six key non-academic factors are:
 1) Coming from a disadvantaged background hampers a child's academic progress
-2) Pupils with English as an additional language (EAL) progress more than those without it
-3) Achieving at least one GCSE is important
+2) Pupils with English as an additional language (EAL) progress more than those without it: this is largely due to proficiency in English itself: by the time children with EAL reach 16, they have not only mastered English, but are then ahead of their peers academically.
+3) Achieving at least one GCSE is important: most children get at least one GCSE, but there are a few schools which have more than a handful of pupils not getting at least one GCSE
 4) Taking a(ny) language at GCSE is a strong indicator of a child progressing more than his or her peers
 5) Girls progress faster than boys from 11 to 16 years old
 6) The more GCSEs (and equivalent) qualifications that children do, the more they progress
@@ -77,8 +77,7 @@ What things you need to install the software and how to install them
 5) Seaborn
 
 ## Questions or feedback?
-The files should all load, but if they don't please let me know (jackwhittle@gmail.com).
-
+The files should all load, and hopefully they are self-explanatory, but if they don't or you have any questions or feedback please let me know (jackwhittle@gmail.com).  I'm always interested to hear people's thoughts on something I am passionate about!
 
 Thanks
 
