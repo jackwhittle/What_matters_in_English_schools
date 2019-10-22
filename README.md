@@ -1,4 +1,5 @@
-# What explains children's academic progress between the ages of 11 and 16?
+# What matters in schools?
+## Explaining children's academic progress in England between the ages of 11 and 16
 
 In England, schools used to be judged solely on GCSE results of their children in Maths and English.  In 2016 the government decided to change the key measure, to be one that assessed how much progress children had made since they were 11 (GCSEs are generally taken at 16 years old), and measure it for a broader range of subjects (up to 8 in total).  This project looked at progress data for GCSE results for children in England in 2018, and used regression models to see how much of the progress that children make can be explained.  (Answer: about half.)
 
