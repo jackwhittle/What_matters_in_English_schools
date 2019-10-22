@@ -7,7 +7,7 @@ This is my final ('Capstone') project for 3 month Data Science Immersive Course 
 
 
 ## Why is this important?
-Over the past 10 years there has been reduced funding for schools. Recently (August 2019), the government announced a £7.1bn increase in spending on education over the next three years. Knowing which areas to invest this money in is crucial to ensure the best possible benefit for children, especially since GCSE results are a key factor in predicting University grades.
+Over the past 10 years there has been reduced funding for schools. Recently (August 2019), the UK government announced a £7.1bn increase in spending on education over the next three years. Knowing which areas to invest this money in is crucial to ensure the best possible benefit for children, especially since GCSE results are a key factor in predicting University grades.
 
 Whilst academic results are by no means the sole factor in a child's development, with experience in sports and arts activities and overall health being three other crucial factors of many, they are nevertheless important to future achievement in adult life.
 
