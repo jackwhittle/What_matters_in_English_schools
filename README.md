@@ -80,6 +80,6 @@ What things you need to install the software and how to install them
 ## Questions or feedback?
 The files should all load, and hopefully they are self-explanatory, but if they don't or you have any questions or feedback please let me know (jackwhittle@gmail.com).  I'm always interested to hear people's thoughts on something I am passionate about!
 
-Thanks
+Thank you
 
 Jack
