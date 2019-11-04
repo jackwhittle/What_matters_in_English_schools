@@ -14,7 +14,7 @@ Whilst academic results are by no means the sole factor in a child's development
 ## What ***does*** explain how much progress children make?
 There are five key factors that explain the progress made by children in GCSEs taken in 2018. These factors came up in all the different analyses and eight models that were used (more details on them below), and explained just over half of the variation in the progress that schools helped children to make between 11 and 16 years old.
 
-The best performing model was Linear Regression with Lasso Regularisation, which had a mean R2 score of 0.56 on a 5 fold cross-validated training set. Decision Tree Regression and its variants (Ensemble methods of Bagging, Random Forest and AdaBoosting) continually highlighted the same 6 features as being most important (accounting for between 48% and 75% of all Features' Importance depending on the model used). When I ran just those 6 factors in Linear Regression models, I got very similar scores to when I had all data included, except that the 'vanilla' OLS without regularisation became as high as the reguilarised scores.
+The best performing model was Linear Regression with Lasso Regularisation, which had a mean R2 score of 0.56 on a 5 fold cross-validated training set. Decision Tree Regression and its variants (Ensemble methods of Bagging, Random Forest and AdaBoosting) continually highlighted the same five features as being most important (accounting for between 48% and 75% of all Features' Importance depending on the model used). When I ran just those five factors in Linear Regression models, I got very similar scores to when I had all data included, except that the 'vanilla' OLS without regularisation became as high as the reguilarised scores.
 
 Note: I excluded all data that I termed 'Academic' since it had circular causality with the Progress 8 measure: for example, doing better than others in Maths will make you progress more than them.
 
@@ -54,9 +54,8 @@ However, before these recommendations are implemented, the data for other school
 There is one Powerpoint presentation summarising the results, and four Jupyter Notebook files that form the core of the analysis:
 
 1) **1_GCSEs_Model_Tech_Report_Sep_19.ipynb**: technical report of the whole project, from data cleaning to modeling to findings and recommendations.
-
-2) **2_GCSEs_Data_Cleaning_Sep_19.ipynb**: step by step walk through of the data cleaning to get a usable dataset (includes imputation)
-3) **3_GCSEs_Feature_Engineering.ipynb**: additional data added in to the data set, for example average class size, which had been hypthesised to be important
+2) **2_GCSEs_Data_Cleaning_Sep_19.ipynb**: step by step walk through of the data cleaning to get a usable dataset (includes imputation).
+3) **3_GCSEs_Feature_Engineering.ipynb**: additional data added in to the data set, for example average class size, which had been hypthesised to be important.
 4) **4_GCSEs_Modeling_Sep_19.ipynb**: step by step walk through of all eight models that I built (includes parameter settings, results, and conclusions for each)
 
 #### The data
@@ -65,10 +64,7 @@ b) Final, cleaned data file that was used for modeling (xxx.csv)<br />
 
 
 #### What you need in order to be able to see the files
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.  You do 
-
-#### Prerequisites and how to install them
-What things you need to install the software and how to install them
+You'll need to have teh folowing doftware installed:
 1) Python
 2) Jupyter Notebook
 3) Pandas
