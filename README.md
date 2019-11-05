@@ -61,7 +61,7 @@ There is one Powerpoint presentation summarising the results (called 'GCSEs_JTW_
 
 #### The data
 a) Original raw dataset (from https://www.compare-school-performance.service.gov.uk/download-data)<br />
-b) Final, cleaned data file that was used for modeling (xxx.csv)<br />
+b) Final, cleaned data file that was used for modeling (final_full_feat_gcse_2018.csv)<br />
 
 
 #### What you need in order to be able to see the files
