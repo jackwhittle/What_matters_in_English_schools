@@ -5,6 +5,7 @@ In England, schools used to be judged solely on GCSE results of their children i
 
 This is my final ('Capstone') project for 3 month Data Science Immersive Course with General Assembly.
 
+Below is a brief summary of the project and my conclusions, and below that an overview of the documents you can explore if you would like more detail (including a Powerpoint summary deck).
 
 ## Why is this important?
 Over the past 10 years there has been reduced funding for schools. Recently (August 2019), the UK government announced a £7.1bn increase in spending on education over the next three years. Knowing which areas to invest this money in is crucial to ensure the best possible benefit for children, especially since GCSE results are a key factor in predicting University grades.
@@ -18,18 +19,18 @@ The best performing model was Linear Regression with Lasso Regularisation, which
 
 Note: I excluded all data that I termed 'Academic' since it had circular causality with the Progress 8 measure: for example, doing better than others in Maths will make you progress more than them.
 
-### The six key non-academic factors are:
-1) Coming from a disadvantaged background hampers a child's academic progress
+### The five key non-academic factors are:
+1) Taking a(ny) language at GCSE is a strong indicator of a child progressing more than his or her peers
 2) Achieving at least one GCSE is important: most children get at least one GCSE, but there are a few schools which have more than a handful of pupils not getting at least one GCSE
-3) Taking a(ny) language at GCSE is a strong indicator of a child progressing more than his or her peers
-4) Girls progress faster than boys from 11 to 16 years old
-5) The more GCSEs (and equivalent) qualifications that children do, the more they progress
+3) The more GCSEs (and equivalent) qualifications that children do, the more they progress
+4) Coming from a disadvantaged background hampers a child's academic progress
+5) Girls progress faster than boys from 11 to 16 years old
 
 
 ### There were some surprise findings too...
 ...because they turned out to be unimportant when I had thought that they would be:<br />
-a) The ratio of teachers to pupils does not have a significant impact on overall academic progress<br />
-b) Children in Selective Schools make on average two thirds of a grade more progress per GCSE than children in Non-Selective ones (remember that the focus in the project is how much progress children make, not their 'raw' academic achievement)<br />
+a) Class size (the ratio of teachers to pupils) does not have a significant impact on overall academic progress<br />
+b) Children in Selective Schools make on average two thirds of a grade more progress per GCSE than children in Non-Selective ones (interesting given that the focus in the project is how much progress children make, not their 'raw' academic achievement)<br />
 c) The most recent Government Inspection (Ofsted) rating of the school was not a big predictor of progress<br />
 d) Educational establishments (Academies) did not progress more than other schools, though it may be too early to see the impact of these institutions<br />
 e) Geographic location in the UK was not itself a significant factor in explaining progress<br />
@@ -44,14 +45,14 @@ Given that the models explained approximately 50% of the variation in progress t
 
 However, before these recommendations are implemented, the data for other school years needs to be analysed, to ascertain whether the explanatory factors for those years are similar to 2017-18.
 
-### There are three risks to the models that I have built which need to be considered:
+### There are three key risks to the models that I have built which need to be considered:
 1) The 50% of progress that is unexplained by the model could have more important actions that need to be taken. I believe that the most important factor for determining progress is teacher quality (driven itself by Head Teacher quality) but I could not find data on that
 2) Schools may focus on influencing the results for their school overall to the detriment of childrens' progress
 3) The smallest 30% of schools (accounting for only 5% of children) are excluded from data for reasons of anonymity, but they may affect the overall findings
 
 
 ## Want to find out more?
-There is one Powerpoint presentation summarising the results, and four Jupyter Notebook files that form the core of the analysis:
+There is one Powerpoint presentation summarising the results (called 'GCSEs_JTW_Sep_19_vFINAL_published.ppt'), and four Jupyter Notebook files that form the core of the analysis:
 
 1) **1_GCSEs_Model_Tech_Report_Sep_19.ipynb**: technical report of the whole project, from data cleaning to modeling to findings and recommendations.
 2) **2_GCSEs_Data_Cleaning_Sep_19.ipynb**: step by step walk through of the data cleaning to get a usable dataset (includes imputation).
