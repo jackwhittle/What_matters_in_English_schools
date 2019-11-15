@@ -52,12 +52,12 @@ However, before these recommendations are implemented, the data for other school
 
 
 ## Want to find out more?
-There is one Powerpoint presentation summarising the results (called 'GCSEs_JTW_Sep_19_vFINAL_published.ppt'), and four Jupyter Notebook files that form the core of the analysis:
+There is [one presentation](GCSEs_JTW_Sep_19_vFINAL_published.pdf) summarising the results (called 'GCSEs_JTW_Sep_19_vFINAL_published.pdf'), and four Jupyter Notebook files that form the core of the analysis:
 
 1) **[1_GCSEs_Model_Tech_Report_Sep_19.ipynb](1_GCSEs_Model_Tech_Report_Sep_19.ipynb)**: technical report of the whole project, from data cleaning to modeling to findings and recommendations.
-2) **2_GCSEs_Data_Cleaning_Sep_19.ipynb**: step by step walk through of the data cleaning to get a usable dataset (includes imputation).
-3) **3_GCSEs_Feature_Engineering.ipynb**: additional data added in to the data set, for example average class size, which had been hypthesised to be important.
-4) **4_GCSEs_Modeling_Sep_19.ipynb**: step by step walk through of all eight models that I built (includes parameter settings, results, and conclusions for each)
+2) **[2_GCSEs_Data_Cleaning_Sep_19.ipynb](2_GCSEs_Data_Cleaning_Sep_19.ipynb)**: step by step walk through of the data cleaning to get a usable dataset (includes imputation).
+3) **[3_GCSEs_Feature_Engineering.ipynb](3_GCSEs_Feature_Engineering.ipynb)**: additional data added in to the data set, for example average class size, which had been hypthesised to be important.
+4) **[4_GCSEs_Modeling_Sep_19.ipynb](4_GCSEs_Modeling_Sep_19.ipynb)**: step by step walk through of all eight models that I built (includes parameter settings, results, and conclusions for each)
 
 #### The data
 a) Original raw dataset (from https://www.compare-school-performance.service.gov.uk/download-data)<br />
