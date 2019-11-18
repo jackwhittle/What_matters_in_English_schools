@@ -1,11 +1,11 @@
 # What matters in schools?
 ### Explaining children's academic progress in England between the ages of 11 and 16
 
-In England, schools used to be judged solely on GCSE results of their children in Maths and English.  In 2016 the government decided to change the key measure, to be one that assessed how much progress children had made since they were 11 (GCSEs are generally taken at 16 years old), and measure it for a broader range of subjects (up to 8 in total).  This project looked at progress data for GCSE results for children in England in 2018, and used regression models to see how much of the progress that children make can be explained.  (Answer: about half.)
+In England, schools used to be judged solely on the GCSE results of their children in Maths and English.  In 2016 the government decided to change the key measure, to be one that assessed how much progress children had made since they were 11 (GCSEs are generally taken at 16 years old), and measure it for a broader range of subjects (up to 8 in total).  This project looked at progress data for GCSE results for children in England in 2018, and used regression models to see how much of the progress that children make can be explained.  (Answer: about half.)
 
 This is my final ('Capstone') project for 3 month Data Science Immersive Course with General Assembly.
 
-Below is a brief summary of the project and my conclusions, and below that an overview of the documents you can explore if you would like more detail (including a Powerpoint summary deck).
+Below is a brief summary of the project and my conclusions, and below that an overview of the documents you can explore if you would like more detail (including a [summary deck](GCSEs_JTW_Sep_19_vFINAL_published.pdf)).
 
 ## Why is this important?
 Over the past 10 years there has been reduced funding for schools. Recently (August 2019), the UK government announced a £7.1bn increase in spending on education over the next three years. Knowing which areas to invest this money in is crucial to ensure the best possible benefit for children, especially since GCSE results are a key factor in predicting University grades.
@@ -15,7 +15,7 @@ Whilst academic results are by no means the sole factor in a child's development
 ## What ***does*** explain how much progress children make?
 There are five key factors that explain the progress made by children in GCSEs taken in 2018. These factors came up in all the different analyses and eight models that were used (more details on them below), and explained just over half of the variation in the progress that schools helped children to make between 11 and 16 years old.
 
-The best performing model was Linear Regression with Lasso Regularisation, which had a mean R2 score of 0.56 on a 5 fold cross-validated training set. Decision Tree Regression and its variants (Ensemble methods of Bagging, Random Forest and AdaBoosting) continually highlighted the same five features as being most important (accounting for between 51% and 81% of all Features' Importance depending on the model used). When I ran just those five factors in Linear Regression models, I got very similar scores to when I had all data included, except that the 'vanilla' OLS without regularisation became as high as the reguilarised scores.
+The best performing model was Linear Regression with Lasso Regularisation, which had a mean R2 score of 0.56 on a 5 fold cross-validated training set. Decision Tree Regression and its variants (Ensemble methods of Bagging, Random Forest and AdaBoosting) continually highlighted the same five features as being most important (accounting for between 51% and 81% of all Features' Importance depending on the model used). When I ran just those five factors in Linear Regression models, I got very similar scores to when I had all data included, except that the 'vanilla' OLS without regularisation became as high as the regularised scores.
 
 Note: I excluded all data that I termed 'Academic' since it had circular causality with the Progress 8 measure: for example, doing better than others in Maths will make you progress more than them.
 
@@ -28,7 +28,7 @@ Note: I excluded all data that I termed 'Academic' since it had circular causali
 
 
 ### There were some surprise findings too...
-...because they turned out to be unimportant when I had thought that they would be:<br />
+...because they turned out to be unimportant when I had thought that they would be key:<br />
 a) Class size (the ratio of teachers to pupils) does not have a significant impact on overall academic progress<br />
 b) Children in Selective Schools make on average two thirds of a grade more progress per GCSE than children in Non-Selective ones (interesting given that the focus in the project is how much progress children make, not their 'raw' academic achievement)<br />
 c) The most recent Government Inspection (Ofsted) rating of the school was not a big predictor of progress<br />
@@ -56,7 +56,7 @@ There is [one presentation](GCSEs_JTW_Sep_19_vFINAL_published.pdf) summarising t
 
 1) **[1_GCSEs_Model_Tech_Report_Sep_19.ipynb](1_GCSEs_Model_Tech_Report_Sep_19.ipynb)**: technical report of the whole project, from data cleaning to modeling to findings and recommendations.
 2) **[2_GCSEs_Data_Cleaning_Sep_19.ipynb](2_GCSEs_Data_Cleaning_Sep_19.ipynb)**: step by step walk through of the data cleaning to get a usable dataset (includes imputation).
-3) **[3_GCSEs_Feature_Engineering.ipynb](3_GCSEs_Feature_Engineering.ipynb)**: additional data added in to the data set, for example average class size, which had been hypthesised to be important.
+3) **[3_GCSEs_Feature_Engineering.ipynb](3_GCSEs_Feature_Engineering.ipynb)**: additional data added in to the data set, for example average class size, which had been hypothesised to be important.
 4) **[4_GCSEs_Modeling_Sep_19.ipynb](4_GCSEs_Modeling_Sep_19.ipynb)**: step by step walk through of all eight models that I built (includes parameter settings, results, and conclusions for each)
 
 #### The data
@@ -65,7 +65,7 @@ b) Final, cleaned data file that was used for modeling (final_full_feat_gcse_201
 
 
 #### What you need in order to be able to see the files
-You'll need to have teh folowing doftware installed:
+You'll need to have the following software and libraries installed:
 1) Python
 2) Jupyter Notebook
 3) Pandas
@@ -73,7 +73,7 @@ You'll need to have teh folowing doftware installed:
 5) Seaborn
 
 ## Questions or feedback?
-The files should all load, and hopefully they are self-explanatory, but if they don't or you have any questions or feedback please let me know (jackwhittle@gmail.com).  I'm always interested to hear people's thoughts on something I am passionate about!
+The files should all load, and hopefully they are self-explanatory, but if they don't or you have any questions or feedback please let me know via LinkedIn.  I'm always interested to hear people's thoughts on something I am passionate about!
 
 Thank you
 
